@@ -91,7 +91,7 @@ contactForm.addEventListener("submit", (e) => {
 
 const getEmailMessage = ({ name, email, message } = {}) => {
     return `
-        <p>You Have Received A New Message From Your Contact Website:</p>
+        <p>You Have Received A New Message From EDUCRAFT:</p>
         <div style="background-color: #101010; color: #fbfbfb; padding: 12px">
             <p style="margin: 0;">Name: ${name}</p>
             <p style="margin: 12px 0;">Email: ${email}</p>
